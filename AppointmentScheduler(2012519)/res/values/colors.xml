@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <item name="home_background_color" type="color">#ECF0F1</item>
+    <item name="selected_day_color" type="color">#2C3E50</item>
+    <item name="selected_day_week_color" type="color">#95A5A6</item>
+    <item name="not_selected_days_color" type="color">#95A5A6</item>
+    <item name="selected_week_backgroundcolor" type="color">#E67E22</item>
+    <item name="selected_day_red" type="color">#E74C3C</item>
+
+</resources>

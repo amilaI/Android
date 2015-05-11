@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:background="@color/home_background_color"
+    android:columnCount="2"
+    android:rowCount="3" >
+
+    <Button
+        android:id="@+id/addAppointmentBtn"
+        android:layout_width="148dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:background="@drawable/shapes"
+        android:text="Create Appointment"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/viewEditAppointmentBtn"
+        android:layout_width="158dp"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="0"
+        android:background="@drawable/shapes"
+        android:text="View/Edit Appointment"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/deleteAppointmentBtn"
+        android:layout_width="148dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="70dp"
+        android:layout_row="0"
+        android:background="@drawable/shapes"
+        android:text="Delete Appointment"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/moveAppointmentBtn"
+        android:layout_width="158dp"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="70dp"
+        android:layout_row="0"
+        android:background="@drawable/shapes"
+        android:text="Move   Appointment"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/searchAppointmentBtn"
+        android:layout_width="148dp"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="140dp"
+        android:layout_row="0"
+        android:background="@drawable/shapes"
+        android:text="Search Appointment"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/translateAppointmentBtn"
+        android:layout_width="158dp"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="140dp"
+        android:layout_row="0"
+        android:background="@drawable/shapes"
+        android:text="Translate Appointment"
+        android:textStyle="bold" />
+
+</GridLayout>
