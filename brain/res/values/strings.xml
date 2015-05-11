@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brain Training Game</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="newGame">New Game</string>
+    <string name="continueGame">Continue</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="difficulty_guide">The Novice level corresponds to an arithmetic expression involving exactly 2 integers. The
+		Easy level gives a maximum 3 terms expression.The Medium level gives a maximum 4 and minimum 2 terms expression.The Guru level gives maximum 6 and minimum 4 terms expression.</string>
+   <string name="noviceLevel">Novice</string>
+    <string name="easyLevel">Easy</string>
+    <string name="mediumLevel">Medium</string>
+    <string name="guruLevel">Guru</string>
+    <string name="chooseDifficulty">Choose Difficulty</string>
+    <string name="aboutHeader">About This Game</string>
+    <string name="aboutDeveloper">This app is developed by M.A.S.Iddamalgoda (2012519).amila922@gmail.com</string>
+    <string name="aboutGame">This is a basic brain training game which will be asking you to calculate the answer
+	    to 10 simple arithmetic expressions.You have 4 difficulty levels.10 seconds time
+	    will be given for each question.And you will provide the answer followed by # sign.</string>
+    <string name="game_settings">Turn on Hint </string>
+    <string name="help">Help</string>
+    <string name="image_content_description">Image About</string>
+    <string name="Your_Points">Your Points</string>
+    <string name="Correct_Answers">Correct Answers</string>
+    <string name="Incorrect_Answers">Incorrect Answers</string>
+    <string name="Back_Menu">Back to Menu</string>
+    <string name="Your_Score">Your Score</string>
+
+</resources>

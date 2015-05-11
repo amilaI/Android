@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/chooseDifficulty"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/noviceLevelBtnId"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/noviceLevel"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/easyLevelBtnId"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:text="@string/easyLevel"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mediumLevelBtnId"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:text="@string/mediumLevel"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/guruLevelBtnId"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:text="@string/guruLevel"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

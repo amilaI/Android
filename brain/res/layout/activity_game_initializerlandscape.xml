@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="113dp"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/image_content_description"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/brain2" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+           
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/continueGameBtnId"
+                style="@color/black_overlay"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="@string/continueGame"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/newGameBtnId"
+                android:layout_height="wrap_content"
+                android:text="@string/newGame"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/aboutGameBtnId"
+                android:layout_width="264dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/exitGameBtnId"
+                android:layout_width="264dp"
+                android:layout_height="wrap_content"             
+                android:text="@string/exit"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
